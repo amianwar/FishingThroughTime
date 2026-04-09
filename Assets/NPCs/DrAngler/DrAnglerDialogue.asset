@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed2c0874b1faeb4597781ccb833e1e8, type: 3}
+  m_Name: DrAnglerDialogue
+  m_EditorClassIdentifier: Assembly-CSharp::NPCDialogue
+  npcName: Dr. Angler
+  npcPortrait: {fileID: 0}
+  dialogueLines:
+  - Greetings! My name is Dr. Angler. I heard you were sent by my colleague to assist
+    me with my research.
+  - Did my colleague tell you anything about the research we will be conducting?
+  - "No? Perfect! A fresh pair of eyes! To start, I have a gift for you\u2014 this
+    pocketwatch here. "
+  - Hmm... you don't seem too pleased. Nonetheless, I can assure you that its mechanisms
+    will shock you.
+  - Have you ever used...
+  - ...a time machine?!
+  - Wow! I wish you saw the look on your face! I bet you didn't expect me to say
+    that.
+  - To be quite honest with you, it's still in the works; but nothing to worry about,
+    all of my prototypes have adequately
+  - transported mice... somewhere... they haven't returned yet, but I'm sure that's
+    because they don't have fingers to use
+  - the pocketwatch like you and I do. Goodness me, I am rambling on and on. Let
+    me tell you about my research.
+  - I am currently researching fish from the many different time periods that marine
+    life has existed in.
+  - "However, with this research comes some difficulty\u2014 there is no way for
+    me to analyze their live behaviours. All I have"
+  - are some fossils, which while useful, they really don't explain a lot of fish
+    behaviours. This is where you come in!
+  - I am entrusting you with the pocketwatch to retrieve the fish I need for my research
+    from each time period. Isn't that fun?!
+  - I know that sounds scary, with dinosaurs and all, but rest assured that there
+    is nothing to worry about. Since the
+  - pocketwatch is portable, if you find yourself in a difficult situation, you can
+    just travel back to the present.
+  - 'The only reason I cannot go is because, well, who will conduct and protect the
+    research if I''m not here? Haha! '
+  - We need to get started on the research as soon as possible. The museum is counting
+    on us!
+  - 'To open the pocketwatch, press E. Then, choose the time period and hit teleport.
+    Take this device as well; it''s called the  '
+  - Talkinator. No, it's not just a walkie talkie. It uses frequencies that allow
+    us to communicate beyond the boundaries of
+  - "space and time and\u2014 sorry, I'm rambling again. I will be able to speak
+    with you using the Talkinator."
+  - One last thing before you go! To record your findings, take this research logbook.
+    You can open it with Q. Let me actually
+  - record some information about the first fish for you to find. I don't know exactly
+    where to find it, but I'll write what I know.
+  - Okay, there you go. Good luck on your adventure. When you're done, come back
+    to me!
+  typingSpeed: 0.025

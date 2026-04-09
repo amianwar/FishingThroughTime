@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59822204be798494bbad8841003f154b, type: 3}
+  m_Name: Fish6
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemName: E. heinrichi
+  description: Found in the United Kingdom, Russia, and the United States, this is
+    a species of fish from the late carboniferous geological period. This was the
+    largest species  of its genus, the Edestus, measuring at 6.7 m. It is speculated
+    that it was the largest marine predator to have existed until that point.
+  icon: {fileID: -5449295534176729585, guid: 7ab62252949c409428149eb9218f1753, type: 3}
+  itemType: 0
+  quantity: 1
+  maxStackSize: 1

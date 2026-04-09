@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fd9fb6cd2b5f846b03508ed9235680, type: 3}
+  m_Name: DropTablePeriod2
+  m_EditorClassIdentifier: Assembly-CSharp::DropTableData
+  entries:
+  - item: {fileID: 11400000, guid: 4c6715c780d001346a867da9cdee4da5, type: 2}
+    chance: 40
+  - item: {fileID: 11400000, guid: 64813ad4c01494a489605c53e5546397, type: 2}
+    chance: 40
+  - item: {fileID: 11400000, guid: f43cce4d2ef5f56469f3b197f6bac9f0, type: 2}
+    chance: 6
+  - item: {fileID: 11400000, guid: 37a120b9ae070394abee13c3a07930c8, type: 2}
+    chance: 6
+  - item: {fileID: 11400000, guid: 95fdf2b771202594092048e350b432f0, type: 2}
+    chance: 4
+  - item: {fileID: 11400000, guid: 55310682373e9fd4aa33984a5da49411, type: 2}
+    chance: 6
