@@ -11,6 +11,6 @@ public class FindWorldName : MonoBehaviour
     {
         currentTimePeriod.text = string.Empty;
         Scene currentScene = SceneManager.GetActiveScene();
-        currentTimePeriod.text = timePeriods[currentScene.buildIndex-1];
+        currentTimePeriod.text = timePeriods[currentScene.buildIndex];
     }
 }

@@ -15,7 +15,7 @@ public class WatchNavi : MonoBehaviour
     public Button rightClick;
     public Image prevWorld;
     public List<Sprite> worldImages;
-    private int worldNum = 1;
+    private int worldNum = 0;
     private int currentWorldNum;
     private int maxWorldsIndex;
     
@@ -23,7 +23,7 @@ public class WatchNavi : MonoBehaviour
     void Start()
     {
         currentWorldNum = SceneManager.GetActiveScene().buildIndex;
-        maxWorldsIndex = SceneManager.sceneCountInBuildSettings-1;
+        maxWorldsIndex = SceneManager.sceneCountInBuildSettings-2;
         leftClick.onClick.AddListener(LeftButton);
         rightClick.onClick.AddListener(delegate {RightButton(maxWorldsIndex); });
         teleporter.onClick.AddListener(Teleport);
@@ -31,13 +31,13 @@ public class WatchNavi : MonoBehaviour
 
     void LeftButton() 
     {
-        if (worldNum != 1)
+        if (worldNum != 0)
         {
-            if (worldNum > 1)
+            if (worldNum > 0)
             {
                 worldNum--;
             }
-            prevWorld.sprite = worldImages[worldNum-1];
+            prevWorld.sprite = worldImages[worldNum];
         }
     }
 
@@ -49,7 +49,7 @@ public class WatchNavi : MonoBehaviour
             {
                 worldNum++;
             }
-            prevWorld.sprite = worldImages[worldNum-1];
+            prevWorld.sprite = worldImages[worldNum];
         }
     }
 

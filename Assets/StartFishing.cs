@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.Win32.SafeHandles;
 using TMPro;
+using UnityEditor.PackageManager.Requests;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
