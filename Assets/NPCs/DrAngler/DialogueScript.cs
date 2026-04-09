@@ -2,7 +2,6 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 using UnityEngine.InputSystem;
-using UnityEditor;
 using System;
 
 public class DialogueScript : MonoBehaviour
